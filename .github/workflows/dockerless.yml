@@ -6,9 +6,9 @@
 name: Create and publish dockerless artefacts
 
 env:
-  VITE_IMPFEN_APPOINTMENTS_ENDPOINT: "https://api.impfen.bastelgenosse.in/appointments"
-  VITE_IMPFEN_STORAGE_ENDPOINT: "https://api.impfen.bastelgenosse.in/storage"
-  VITE_IMPFEN_BEACON_ENDPOINT: "https://api.impfen.bastelgenosse.in/beacon"
+  VITE_IMPFEN_APPOINTMENTS_ENDPOINT: "https://api.impfen.bastelgenosse.de/appointments"
+  VITE_IMPFEN_STORAGE_ENDPOINT: "https://api.impfen.bastelgenosse.de/storage"
+  VITE_IMPFEN_BEACON_ENDPOINT: "https://api.impfen.bastelgenosse.de/beacon"
 
 on: "push"
 
